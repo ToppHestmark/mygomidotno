@@ -1,0 +1,60 @@
+/* Body */
+html, body {
+  width: 100%;
+  background-color: #F7C5C4;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+.header {
+  overflow: hidden;
+  padding: 20px 22px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #D24B79;
+}
+
+label::after{
+  content: "";
+  display: block;
+}
+
+h3 {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 30px;
+}
+
+.radio {
+  margin: 5px 5px;
+  margin-left: 100px;
+}
+
+.checkbox {
+  margin-left: 100px;
+}
+
+.input {
+  margin-left: 100px;
+  margin-bottom: 5px;
+}
+
+fieldset, .extras, .user {
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Button */
+button {
+  float: right;
+  margin-right: 20%;
+  margin-bottom: 5%;
+}
+
+button:hover {
+  color: red;
+}

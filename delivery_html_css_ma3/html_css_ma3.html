@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red Pepper Pizza</title>
+  <link rel="stylesheet" type="text/css" href="styles_ma3.css">
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="order_page">
+    <h1>Red Pepper Pizza order form</h1>
+    <form class="form" action="/action_page.php" method="get" target="selected">
+          <div class="section">
+            <p class="selection">Select Your Pizza:</p>
+            <p>
+               <label>Red Pepper:</label>
+               <select id = "pizza_list">
+                 <option value = "Signature">Signature</option>
+                 <option value = "Italian_Traditional">Italian traditional</option>
+                 <option value = "Mozzarella">Mozzarella</option>
+                 <option value = "Pepperoni">Pepperoni</option>
+                 <option value = "Extra_Hot">Extra Hot</option>
+                 <option value = "Special">Special</option>
+               </select>
+            </p>
+         </div>
+          <div class="section">
+            <p class="selection">Select Your Crust:</p>
+          <input type="radio" id="thin" name="size" value="thin">
+          <label for="thin">Thin</label><br>
+          <input type="radio" id="thick" name="size" value="thick">
+          <label for="thick">Thick</label>
+          </div>
+          <div class="section">
+            <p class="selection">Extras:</p>
+            <input type="checkbox" name="additional"
+            value="cheese" /> Cheese <br>
+            <input type="checkbox" name="additional"
+            value="mushroom" /> Mushroom <br>
+            <input type="checkbox" name="additional"
+            value="paprika" /> Paprika <br>
+            <input type="checkbox" name="additional"
+            value="ham" /> Ham
+          </div>
+          <br>
+          <button class="submit_button" type="submit" value="Submit">
+            Submit
+          </button>
+      </form>
+   </nav>
+   <br><br>
+  <footer id="footer">
+    Red Pepper Pizza, The Traditional Italian Pizza Company
+  </footer>
+</body>
+</html>

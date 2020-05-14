@@ -1,0 +1,58 @@
+.order_page {
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: xx-large;
+  color: crimson;
+  text-align: center;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.section {
+  font-family: 'Cabin Condensed', sans-serif;
+  padding-bottom: 30px;
+}
+
+.selection {
+  text-indent: -2em;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 90%;
+}
+
+.submit_button {
+  color: green;
+}
+
+.submit_button:hover {
+  color: red;
+}
+
+.submit_button:active {
+  color: blue;
+}
+
+#footer {
+  background-color: #d3d3d3;
+  padding: 20px;
+  text-align: center;
+  opacity: 80%;
+  font-style: initial;
+}

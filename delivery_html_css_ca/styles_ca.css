@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow|Oxygen&display=swap');
+
+@media screen and (max-width: 481px) {
+
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    background-color: white;
+    min-height: 100vh;
+  }
+
+  /* ------Navigation bar------ */
+  nav {
+    width: 100vw;
+    background-color: white;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  li {
+    list-style-type: none;
+    margin: 0;
+    font-size: 2.3vh;
+    align-self: flex-start;
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    padding: 1.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    align-self: flex-end;
+  }
+
+  /* -------LOGO------ */
+  .logo {
+    max-width: 100px;
+    float: right;
+    justify-items: right;
+    position: relative;
+    right: 5%;
+    top: 10px;
+  }
+
+  /* -------Navigation Button------ */
+  button {
+    display: block;
+    padding: 5vw;
+    font-size: 3vh;
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+
+  /* ------Content Container------ */
+  .content_container {
+    flex: 1 0 auto;
+    position: relative;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    min-height: 88vh;
+    flex-direction: column;
+    justify-content: space-between
+  }
+
+  .content_item {
+    position: absolute;
+    top: 10%;
+    left: 16px;
+  }
+
+  .content_item a {
+    color: white;
+    text-decoration: underline;
+    position: absolute;
+    left: -0.4em;
+  }
+
+  .content_item h1 {
+    margin-bottom: -10px;
+    max-width: 90%;
+    font-family: 'Oxygen', sans-serif;
+  }
+
+  .content_item p {
+    max-width: 70%;
+    font-family: 'Barlow', sans-serif;
+  }
+
+  .background_image {
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    left: -50%;
+    right: -50%;
+  }
+
+  /* ------Maps------ */
+.maps_container, .maps {
+  top: 80px;
+  left: 10px;
+  position: absolute;
+  
+}
+
+  /* ------Footer------ */
+  .footer {
+    padding: 8px;
+    text-align: center;
+    font-size: x-small;
+    opacity: 75%;
+    font-style: initial;
+    flex-shrink: 0;
+    color: grey;
+    background-color: black;
+  }
+
+  /* ------BOOKING BUTTON------- */
+  .book_butt {
+    position: absolute;
+    border: 3px solid rgb(30, 196, 66);
+    border-radius: 5px;
+    background-color: rgb(30, 196, 66);
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    margin-top: 3em;
+    left: 10%;
+    color: white;
+  }
+  
+
+}
+
+
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/* ------Screen size which is bigger than mobile phone------ */
+@media screen and (min-width: 482px) {
+  
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    background-color: white;
+    min-height: 100vh;
+  }
+
+  /* ------Navigation bar------ */
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    float: left;
+  }
+
+  li {
+    list-style-type: none;
+    font-size: 2.5vh;
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(48, 46, 46);
+    padding: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+  }
+
+  ul li a:hover{ 
+    font-weight: bold;
+    color: rgba(37, 37, 219, 0.651);
+  }
+
+  /* -------LOGO------ */
+  .logo {
+    max-width: 100px;
+    float: right;
+    justify-items: right;
+    position: relative;
+    right: 4%;
+    top: 15px;
+  }
+
+  /* -------Navigation Button to dissapear------ */
+  button {
+    display: none;
+  }
+
+  /* ------Content Container------- */
+  .content_container {
+    flex: 1 0 auto;
+    position: relative;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    max-height: 92%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .content_item {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+
+  .content_item a {
+    color: white;
+    text-decoration: underline;
+    position: absolute;
+    left: -1em;
+  }
+
+  .content_item a:hover {
+    color: rgba(37, 37, 219, 0.651);
+  }
+
+  .content_item h1 {
+    margin-bottom: 10px;
+    max-width: 90%;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 40px;
+  }
+
+  .content_item p {
+    max-width: 60%;
+    font-family: 'Barlow', sans-serif;
+    font-size: larger;
+  }
+
+  .background_image {
+    margin: 0 auto;
+    min-width: 1000px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+  }
+
+    /* ------Maps------ */
+  .maps_container, .maps {
+    position: absolute;
+    left: 20px;
+  }
+
+  .maps {
+    /* top: 40px; */
+    width: 400px;
+    height: 300px;
+  }
+
+  /* ------Footer------ */
+  .footer {
+    padding: 3px;
+    text-align: center;
+    font-size: x-small;
+    opacity: 75%;
+    font-style: initial;
+    flex-shrink: 0;
+    color: grey;
+    background-color: black;
+  }
+
+  /* ------BOOKING BUTTON------- */
+  .book_butt {
+    position: absolute;
+    border: 3px solid rgb(30, 196, 66);
+    border-radius: 5px;
+    background-color: rgb(30, 196, 66);
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    margin-top: 3em;
+    left: 10%;
+    color: white;
+ }
+ 
+ .book_butt:hover {
+    background-color: rgb(41, 90, 224);
+    border-color: rgb(41, 90, 224);
+ }
+}

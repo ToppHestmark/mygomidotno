@@ -1,0 +1,132 @@
+#page {
+  background-color: white;
+  margin-top: 30px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.intro {
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-family: 'News Cycle', sans-serif;
+  font-size: x-large;
+  background-color: white;
+  opacity: 80%;
+}
+
+h1 {
+  opacity: 80%;
+  font-family: 'Mukta Malar', sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  opacity: 80%;
+  font-family: 'Mukta Malar', sans-serif;
+  font-size: x-large;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+p {
+  opacity: 80%;
+  font-family: 'Mukta Malar', sans-serif;
+  font-size: larger;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.main_pic_text {
+  opacity: 50%;
+  text-align: center;
+  font-size: small;
+}
+
+.left_image_text {
+  opacity: 50%;
+  text-align: left;
+  font-size: small;
+}
+
+.main_image {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+
+.ancient {
+  float: left;
+  margin-right: 80px;
+  margin-left: 21px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  width: 220px;
+}
+
+.ancient_1 {
+  margin-left: 20px;
+  font-size: small;
+  opacity: 50%;
+}
+
+.europe {
+  width: 220px;
+  float: right;
+  margin-right: 25px;
+  margin-left: 80px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.europe_1 {
+  font-size: small;
+  opacity: 50%;
+}
+
+.hairdressers_today {
+  width: 220px;
+  float: right;
+  margin-right: 25px;
+  margin-left: 80px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.hairdressers_today_1 {
+  font-size: small;
+  opacity: 50%;
+}
+
+.footer {
+  text-align: center;
+  font-size: smaller;
+  opacity: 50%;
+}
+
+blockquote {
+  margin: 0;
+}
+
+blockquote p {
+  padding: 15px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+blockquote p::before {
+  content: '\201C';
+}
+
+blockquote p::after {
+  content: '\201D';
+}

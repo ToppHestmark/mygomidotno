@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Form</title>
+  <link rel="stylesheet" type="text/css" href="form_styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Crete+Round|Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="header">Nice Cream Order Page</h1>
+    <form action="/action_page.php">
+      <fieldset>
+        <h3>Select Size:</h3>
+        <input class="radio" type="radio" name="size" id="small" value="small">
+        <label for="small">Small</label>
+        <input class="radio" type="radio" name="size" id="medium" value="medium"> 
+        <label for="medium">Medium</label>
+        <input class="radio" type="radio" name="size" id="large" value="large">
+        <label for="large">Large</label>
+      </fieldset>
+  
+      <fieldset class="extras">
+        <h3>Extras:</h3>
+      <input class="checkbox" type="checkbox" id="strawberry" name="strawberry" value="strawberry">
+      <label for="strawberry"> Strawberry</label><br>
+      <input class="checkbox" type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+      <label for="chocolate"> Chocolate</label><br>
+      <input class="checkbox" type="checkbox" id="sweet" name="sweet" value="sweet">
+      <label for="vehicle3"> Sweet</label>
+      </fieldset>
+
+      <fieldset class="user">
+        <h3>Deliver to:</h3>
+        <label for="fname">First name:</label>
+        <input class="input" type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label>
+        <input class="input" type="text" id="lname" name="lname"><br>
+        <label for="street">Street:</label>
+        <input class="input" type="text" id="street" name="street"><br>
+        <label for="postcode">Post code:</label>
+        <input class="input" type="text" id="postcode" name="postcode"><br>
+        <label for="city">City:</label>
+        <input class="input" type="text" id="city" name="city"><br>
+      </fieldset>
+
+      <button type="submit" value="Submit">Submit</button>
+    </form>
+</body>
+</html>
